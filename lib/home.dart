@@ -63,6 +63,7 @@ class _WallpaperScreenState extends State<WallpaperScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         title: Text('Wallhaven Wallpapers'),
       ),
       body: wallpapers.isEmpty
